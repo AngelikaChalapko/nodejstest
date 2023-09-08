@@ -6,7 +6,7 @@
 - What patterns/practices/tools would you use to implement simple cache for NoSQL database?
 - What libraries do you consider necessary for any application? Which ones do you use most commonly?
 - How would you choose a backend? When would you use HTTP server, serverless functions or Websockets?
-- Code below is supposed to print `[{name: "Tom", id: 1}, {name: "Kate", id: 2}]`. Explain why it doesn't and explain how would you fix it.
+- Code below is supposed to print `[{name: "Tom", id: 0}, {name: "Kate", id: 1}]`. Explain why it doesn't and explain how would you fix it.
 
 ```js
 class IdGenerator {
