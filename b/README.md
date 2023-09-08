@@ -1,6 +1,6 @@
 # NodeJS Candidate Test
 
-## Basic knowledge questions
+## Basic knowledge questions (complete all)
 
 1. What is the difference between Asynchronous and Non-blocking?
 2. What tools can be used to assure consistent style?
@@ -24,7 +24,7 @@ const people = ["Tom", "Kate", "Taylor"].map(name => ({name, id: getId()}));
 10. What mechanisms for error handling are provided by AWS?
 11. Explain the difference between user pool and identity pool in AWS Cognito.
 
-## Programming tasks
+## Programming tasks (complete all)
 
 1. In file `items.js` you will find that some code is missing. Please write your implementation for `Item` class in marked area. Make sure all functions using that class are working correctly.
 
@@ -33,3 +33,4 @@ const people = ["Tom", "Kate", "Taylor"].map(name => ({name, id: getId()}));
 3. Directory `users` contains application for managing users, but the code is full of bugs. Fix them and write a short report on your debugging process and the changes you made.
 
 4. Create a free tier AWS account and configure Cognito user pool. Create simple Vue.js application allowing users to sign in with email address.
+
